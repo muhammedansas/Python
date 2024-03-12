@@ -7,4 +7,4 @@ def a(n):
     else:
         return n + a(n - 1)
     
-print(a(3))      
+print(a(4))      
