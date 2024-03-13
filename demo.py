@@ -66,6 +66,16 @@
 # print(a(2))
 
 
+# find odd or even:
+# new_one = lambda x : "even" if x%2==0 else "odd"
+# print(new_one(3))
+
+
+# apply lambda in list of tuples:
+# new_list = [("ansas",)]
+
+
+
 # ////////////////////////////i/////////////////////////////////////////////
 
 
