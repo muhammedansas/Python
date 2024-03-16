@@ -62,3 +62,7 @@ from functools import reduce
 # print(reduce(main,[1,2,3,4,5],10))
 
 # //////////////////////////////////////////////////////////////////
+
+a= 10
+b=20
+print("entered number is {} fghjk{}".format(a,b))
