@@ -82,3 +82,4 @@
 # new_list = [x for x in new_list if x != 3]        # : this means first iterate list values and give an if condition for delete 3
 # print(new_list)
 
+

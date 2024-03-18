@@ -44,7 +44,7 @@ from functools import reduce
 # ///////////////////////////////////////////////////////////////
 
 
-# reducer : reducer has a 3rd parameter is an initializer like which value wants to start
+# reduce : reduce has a 3rd parameter is an initializer like which value wants to start
 # ////////////////////////////////////////////////////////////////
 # def main(x,y):     #x taking sum of values or other conditional base y taking next values
 #     return x+y

@@ -63,20 +63,38 @@
 # using raise method in exeptional handling: create and trigger owm custom error messages
 # //////////////////////////////////////////////
 
-try:
-    a=int(input("enter a number"))
-    b=int(input("enter a number"))
-    c=a/b
-    if a < 0 :
-        raise ValueError("number value is invalid")
-    elif a > 50:
-        raise ValueError("number is higher than zero")
+# try:
+#     a=int(input("enter a number"))
+#     b=int(input("enter a number"))
+#     c=a/b
+#     if a < 0 :
+#         raise ValueError("number value is invalid")
+#     elif a > 50:
+#         raise ValueError("number is higher than zero")
     
-except ValueError as ex:
-    print(ex)
-else:
-    print(c)  
+# except ValueError as ex:
+#     print(ex)
+# else:
+#     print(c)  
 
+
+# ///////////////////////////////////////////////////
+while True:
+    try:
+        a = int(input("enter"))
+        b = int(input("enter"))
+        c = a/b
+
+        if a < 0:
+            raise ValueError("give greater than 1")
+        elif a > 50:
+            raise ValueError("give less than 50")
+        
+    except ValueError as ex:
+             print(ex)
+    else:
+        print(c)
+        break
 
 
 
