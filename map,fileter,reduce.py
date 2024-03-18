@@ -63,6 +63,6 @@ from functools import reduce
 
 # //////////////////////////////////////////////////////////////////
 
-a= 10
-b=20
-print("entered number is {} fghjk{}".format(a,b))
+# a= 10
+# b=20
+# print("entered number is {} fghjk{}".format(a,b))
