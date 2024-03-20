@@ -27,14 +27,16 @@
 # 
 
 # /////////////////////////////////////////////////////
-# using while loop:
+# using while loop:/
 # while True:
 #     try:
-        #  a = int(input("enter a value"))
-        #  b = int(input("enter a value"))
-        #  c = a/b
-#     except:
-#          print("enter a valid number")
+#          a = int(input("enter a value"))
+#          b = int(input("enter a value"))
+#          c = a/b
+#     except ZeroDivisionError:
+#          print("cannot devide by zero")
+#     except ValueError:
+#          print("enter a valid number")     
 #     else:
 #          print(c)          
 #          break
@@ -79,22 +81,36 @@
 
 
 # ///////////////////////////////////////////////////
-while True:
-    try:
-        a = int(input("enter"))
-        b = int(input("enter"))
-        c = a/b
+# while True:
+#     try:
+#         a = int(input("enter"))
+#         b = int(input("enter"))
+#         c = a/b
 
-        if a < 0:
-            raise ValueError("give greater than 1")
-        elif a > 50:
-            raise ValueError("give less than 50")
+#         if a < 0:
+#             raise ValueError("give greater than 1")
+#         elif a > 50:
+#             raise ValueError("give less than 50")
         
-    except ValueError as ex:
-             print(ex)
-    else:
-        print(c)
-        break
+#     except ValueError as ex:
+#              print(ex)
+#     else:
+#         print(c)
+#         break
 
+# ////////////////////////////////////////////////
 
+class Main:
+    def __init__(self):
+        pass
+    @staticmethod
+    def meth(name,age):
+        print("name is {} and age is {}".format(name,age))
+    @classmethod
+    def meth2(cls):
+        print("method 2")
+
+obj = Main()
+obj.meth("ansas",12)
+Main.meth2()   
 
