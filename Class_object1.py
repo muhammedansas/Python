@@ -27,5 +27,28 @@
 
 # //////////////////////////////////////////////////////////////
 
+# class Main:
+#     i = 100
+#     def __init__(self):
+#         self.i="100"
+    
+#     def meth(name,age):
+#         print("name is {} and age is {}".format(name,age))
+#     @classmethod
+#     def meth2(cls):
+#         print(cls.i,'kkk')
+
+#     @staticmethod
+#     def m3():
+#         print(Main.i)
+# Main.i=200
+# Main.m3()
+
+
+# print(Main.i)
+
+
+ 
+
 
         
