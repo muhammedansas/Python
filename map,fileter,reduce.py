@@ -63,3 +63,7 @@ from functools import reduce
 
 # //////////////////////////////////////////////////////////////////
 
+def main(x,y):
+    return x+y
+
+print(reduce(main,[1,2,3,4,5],10))

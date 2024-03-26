@@ -1,3 +1,30 @@
+# Add to list to another list:
+# /////////////////////////////
+# x = [1,2,3,4]
+# y = [5,6,7,8]
+# z = x+y
+# print(z)
+
+
+# Add list_1 into list_2 using extend:
+# //////////////////////////////////////
+# list_1 = [1,2,3,4]
+# list_2 = [5,6,7,8]
+# list_1.extend(list_2)
+# print(list_1)
+
+# //////////////////////////////////////////
+
+# merge two list using loop:
+# /////////////////////////////
+# list_1 = [1,2,3,4]
+# list_2 = [5,6,7,8]
+
+# for x in list_2:
+#     list_1.append(x)
+
+# print(list_1)    
+
 # Find prime number in an list:
 # ///////////////////////////////
 # normal:
@@ -82,4 +109,14 @@
 # new_list = [x for x in new_list if x != 3]        # : this means first iterate list values and give an if condition for delete 3
 # print(new_list)
 
+
+# creating new list using list():
+# x = list(('apple','mango',1,2,4))
+# print(x)
+
+
+a = (1,2,3,4,"aaa")
+
+x = a[:4] + (5,) + a[4:]
+print(x)
 
