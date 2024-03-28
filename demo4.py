@@ -2,18 +2,18 @@
 # /////////////////////////////////////////////////////////////////////////
 # simple example:
 
-def decorators(fun):
-    def wrapper(n):
-        any = fun(n)
-        return any * 2
-    return wrapper
+# def decorators(fun):
+#     def wrapper(n):
+#         any = fun(n)
+#         return any * 2
+#     return wrapper    
 
-
-def upper_list(f):
+# @decorators
+# def upper_list(f):
     
-    return f.upper()
+#     return f.upper()
 
-print(upper_list("hello"))
+# print(upper_list("hello"))
 
 # # multiple decorators:
 

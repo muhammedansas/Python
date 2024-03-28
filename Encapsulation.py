@@ -1,5 +1,6 @@
 # encapsulation:
 # //////////////////////////////
+
 # private attribute and method:
 # ///////////////////////////////
 
@@ -17,3 +18,24 @@
         
 # /////////////////////////////////////////////////////////////////////////////////////////////         
 
+# encapsulation getter and setter:
+# //////////////////////////////////////
+
+class A:
+    def __init__(self,name,age):
+        self.__name=name
+        self.age=age
+
+    def get_name(self,age):
+        self.__name=age
+        print(self.__name)
+
+    def set_name(self,name):
+        print()   
+
+    def abc(self):
+        print(self.__name)    
+
+
+obj = A("ansas",21)
+obj.get_name("vicky")        
