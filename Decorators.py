@@ -36,3 +36,19 @@
 #     return f
 
 # print(print_name("my name is ansas"))
+
+
+# without using @decorator:
+# /////////////////////////////////////
+
+# def abc(fun):
+#     def wrapper(n):
+#         b = fun(n)
+#         return b.upper()
+#     return wrapper
+
+# def main(x):
+#     return "hello" + x
+
+# a = abc(main)
+# print(a("ansas"))
