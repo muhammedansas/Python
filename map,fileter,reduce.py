@@ -63,7 +63,6 @@ from functools import reduce
 
 # //////////////////////////////////////////////////////////////////
 
-def main(x,y):
-    return x+y
 
-print(reduce(main,[1,2,3,4,5],10))
+
+print(reduce(lambda x,y:x+y,[1,2,3,4,5]),10)

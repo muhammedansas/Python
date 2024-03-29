@@ -7,33 +7,38 @@
 
 # Add magic method: like this method have two parameter like num. num know as the second object argument
 # /////////////////////////////////////
-class Auther:
-    def __init__(self,name):
-        self.name = name
+# class Auther:
+#     def __init__(self,name):
+#         self.name = name
     
-    def __add__(self,num):
-        return self.name + num.name
+#     def __add__(self,num):
+#         return self.name + num.name
 
-obj = Auther(20)
-obj1 = Auther(30)
-print(obj+obj1)
+# obj = Auther(20)
+# obj1 = Auther(30)
+# print(obj+obj1)
 
 
 
 # str magic method:  str method have one parameter is self it return a string
 # //////////////////////////////////////////////////////
-class Main:
-    def __init__(self,name,age):
-        self.name = name
-        self.age = age
+# class Main:
+#     def __init__(self,name,age):
+#         self.name = name
+#         self.age = age
 
-    def __str__(self):
-        return "the name is {} the age is {}".format(self.name,self.age)    
+#     def __str__(self):
+#         return "the name is {} the age is {}".format(self.name,self.age)    
 
-obj = Main("ansas",21)
-print(obj)
-
-
+# obj = Main("ansas",21)
+# print(obj)
 
 
-        
+
+def main(x):
+    if x<=1:
+        return x
+    else:
+        return x + main(x - 1)
+    
+print(main(10))
