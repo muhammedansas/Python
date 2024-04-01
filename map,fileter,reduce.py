@@ -65,4 +65,17 @@ from functools import reduce
 
 
 
-print(reduce(lambda x,y:x+y,[1,2,3,4,5]),10)
+# print(reduce(lambda x,y:x+y,[1,2,3,4,5]),10)
+
+# print(bool(print(True)))
+
+# print([[]]*3)
+
+# def a(k,m=[]):
+#     m.append(k)
+#     return m
+
+# L2 = a(5,[8])
+# print(L2)
+
+ 
