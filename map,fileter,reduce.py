@@ -78,4 +78,7 @@ from functools import reduce
 # L2 = a(5,[8])
 # print(L2)
 
- 
+i = 5
+for i in range(2):
+    print(i)
+print(i)    
