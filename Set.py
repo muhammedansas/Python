@@ -1,5 +1,5 @@
 # set:
-# set is an unorderd collection of unique elements
+# set is an unorderd collection of unique elements set not allowed duplicates
 
 
 # new_set = {7,4,3,6,5}
