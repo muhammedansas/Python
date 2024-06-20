@@ -52,10 +52,6 @@ class A:
    def __init__(self):
       self.__name="vicky"
 
-  
-
-
-
 obj=A()
 print(obj._A__name)
 

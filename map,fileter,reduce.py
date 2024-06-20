@@ -5,10 +5,10 @@ from functools import reduce
 # //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 # using userdefined function:
-# def main(x):
-#     return x*2
+def main(x):
+    return x*2
 
-# print(list(map(main,[1,2,3,4,5]))) 
+print(list(map(main,[1,2,3,4,5]))) 
 
 
 
@@ -78,7 +78,7 @@ from functools import reduce
 # L2 = a(5,[8])
 # print(L2)
 
-i = 5
-for i in range(2):
-    print(i)
-print(i)    
+# i = 5
+# for i in range(2):
+#     print(i)
+# print(i)    
