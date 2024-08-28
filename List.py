@@ -120,5 +120,29 @@
 # # x = a[:4] + (5,) + a[4:]
 # # print(x)
 
-# learning codes:
-a = [1,2,3,4,5]
+# try:
+#     a =10 
+#     if a <9:
+#         print("this is true")
+# except:
+#     print("this is false")    
+
+# def dec(fun):
+#     def wrapper(name):
+#         result = fun(name)
+#         return result.upper() 
+#     return wrapper 
+    
+
+# def main(name):
+#     return name+ " helloo world"   
+    
+# f = dec(main)
+# print(f("helloo"))
+
+
+a = [1,2,3,4,5,5]
+
+for i in range(0,len(a)):
+    print(i)
+

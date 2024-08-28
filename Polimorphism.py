@@ -7,7 +7,7 @@ class Animal:
 class Dog(Animal):
     def speak(self):
         print("Dog barks")
-
+        
 class Cat(Animal):
     def speak(self):
         print("Cat meows")
