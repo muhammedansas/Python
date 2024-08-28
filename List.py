@@ -141,8 +141,25 @@
 # print(f("helloo"))
 
 
-a = [1,2,3,4,5,5]
 
-for i in range(0,len(a)):
+class Main():
+    def __init__(self):
+        self.num = 1
+
+    def __iter__(self):
+        return self
+
+    def __next__(self):
+        val = self.num
+        if val < 9:
+            self.num += 1
+            return val
+        else:
+            raise StopIteration
+
+obj1 = Main()
+
+print(next(obj1))
+
+for i in obj1:
     print(i)
-
