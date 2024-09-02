@@ -56,3 +56,22 @@
 
 # /////////////////////////////////////////////////
 
+# Hierarchical inheritence:-
+#       multiple subclasses inherit from the same 
+# /////////////////////////////////////////////////////
+
+# class Animal():
+#     def speak(self):
+#         print("speaking")
+
+# class Dog(Animal):
+#     def bark(self):
+#         print("barking")       
+
+# class Cat(Animal):
+#     def meow(self):
+#         print("mewign")
+
+# obj = Cat()
+# obj.speak()
+

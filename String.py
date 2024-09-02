@@ -115,3 +115,17 @@
 # print(a.capitalize())
 
 
+# //////////////////////////////////////////////////
+
+# Question:  wants to remove duplicate elements to a sting 
+
+
+# a = 'ansas'
+
+# b = ''
+
+# for i in a:
+#     if i not in b:
+#         b += i
+
+# print(b)        
