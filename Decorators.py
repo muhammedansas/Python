@@ -41,14 +41,14 @@
 # without using @decorator:
 # /////////////////////////////////////
 
-def abc(fun):
-    def wrapper(n):
-        b = fun(n)
-        return b.upper()
-    return wrapper
+# def abc(fun):
+#     def wrapper(n):
+#         b = fun(n)
+#         return b.upper()
+#     return wrapper
 
-def main(x):
-    return "hello" + x
+# def main(x):
+#     return "hello" + x
 
-a = abc(main)
-print(a("ansas"))
+# a = abc(main)
+# print(a("ansas"))

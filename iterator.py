@@ -17,8 +17,7 @@
 
 # obj = Main()
 
-# for i in obj:
-#     print(i)
+# print(next(obj))
 
 
 

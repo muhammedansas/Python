@@ -21,3 +21,14 @@ obj1 = B("ansas",21)
 obj1.acb()
 
 
+
+class Solution(object):
+    def searchInsert(self, nums, target):
+        if target in nums:
+            return nums.index(target)
+        else:
+            nums.append(target)
+            nums.sort()
+            a = nums.index(target)
+            nums.remove(target)
+            return a
