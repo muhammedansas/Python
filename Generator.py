@@ -35,5 +35,3 @@
 # value = main()
 # for i in value:
 #     print(i)        
-
-
