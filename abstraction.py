@@ -1,3 +1,9 @@
+# /////////////////////////////////////  Abstraction  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+# Abstraction in Python refers to the concept of hiding the implementation details of a function or a class and only exposing the essential functionalities. 
+# It allows you to focus on what an object does rather than how it does it. In Python, abstraction is achieved using abstract classes and interfaces, typically implemented using the abc module.
+
+
+
 from abc import ABC ,abstractclassmethod
 
 class A(ABC):
