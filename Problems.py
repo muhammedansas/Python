@@ -44,3 +44,44 @@
 # print(sorted_string)
 
 
+
+# //////////////////// fibinocci \\\\\\\\\\\\\\\\\\\\
+
+# def fibinocci(n):
+#     fib = [0,1]
+#     if n <=1 :
+#         return fib[:n]
+#     else:
+#         for i in range(2,n):
+#             fib.append(fib[-1]+fib[-2])
+#     return fib
+    
+# print(fibinocci(5))
+
+
+
+# //////////// Capitalize repeated values in a String \\\\\\\\\\\
+
+# a = "ansas"
+# b = ""
+
+# for i in a:
+#     if a.count(i) > 1:
+#         b += i.upper()
+#     else:
+#         b += i
+        
+# print(b)
+
+
+
+# /////// Find the count of str values \\\\\\\\
+
+# a = "ansas"
+
+# b = {}
+
+# for i in a:
+#     b[i] = a.count(i)
+    
+# print(b)
